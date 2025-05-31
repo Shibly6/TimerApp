@@ -15,6 +15,10 @@ public class AlertManager {
         this.frame = frame;
     }
 
+    public void setSoundEnabled(boolean enabled) {
+        this.soundEnabled = enabled;
+    }
+
     public void startAlerts() {
         startBlinking();
         startBeeping();

@@ -4,13 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-<<<<<<< HEAD
-    <groupId>org.timer</groupId>
-    <artifactId>Timer</artifactId>
-=======
     <groupId>org.TimerApp</groupId>
     <artifactId>TimerApp</artifactId>
->>>>>>> f5e07eca334042a37851065efc81fe7eec782d9c
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -31,12 +26,7 @@
             <artifactId>flatlaf-extras</artifactId>
             <version>3.0</version>
         </dependency>
-
-
     </dependencies>
-
-
-
 
     <build>
         <resources>
@@ -61,7 +51,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>org.TimerApp.TimerApp_Old</mainClass>
+                            <mainClass>org.TimerApp.TimerApp</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -76,20 +66,11 @@
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
-
-<<<<<<< HEAD
                     <archive>
                         <manifest>
-                            <mainClass>org.TimerApp.TimerApp_Old</mainClass>
+                            <mainClass>org.TimerApp.TimerApp</mainClass>
                         </manifest>
                     </archive>
-=======
-<!--                    <archive>-->
-<!--                        <manifest>-->
-<!--                            <mainClass>org.TimerApp.TimerApp_Old</mainClass>-->
-<!--                        </manifest>-->
-<!--                    </archive>-->
->>>>>>> f5e07eca334042a37851065efc81fe7eec782d9c
                 </configuration>
                 <executions>
                     <execution>
@@ -103,9 +84,4 @@
             </plugin>
         </plugins>
     </build>
-
-<<<<<<< HEAD
-
-=======
->>>>>>> f5e07eca334042a37851065efc81fe7eec782d9c
 </project>
